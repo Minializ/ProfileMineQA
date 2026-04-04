@@ -17,9 +17,9 @@ export default async function Home({
     <main>
       <Hero lang={lang} />
       <About lang={lang} />
-      <Experience lang={lang} />
-      <Projects lang={lang} />
-      <Skills lang={lang} />
+      <Experience />
+      <Projects />
+      <Skills />
       <Courses />
       <Gallery />
       <Contact lang={lang} />

@@ -5,7 +5,7 @@ export default function LangLayout({
   children,
 }: {
   children: ReactNode;
-  params: Promise<{ lang: "es" | "en" }>;
+  params: Promise<{ lang: string }>;
 }) {
   return (
     <>
